@@ -446,7 +446,6 @@ class Trilinos(CMakePackage):
         if '+dtk' in spec:
             options.extend([
                 '-DTrilinos_EXTRA_REPOSITORIES:STRING=DataTransferKit',
-                '-DTpetra_INST_INT_UNSIGNED_LONG:BOOL=ON',
                 '-DTrilinos_ENABLE_DataTransferKit:BOOL=ON'
             ])
 
